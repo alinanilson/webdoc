@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {box-sizing: border-box;}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+body { 
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+	padding: 0 20px 0;
+	
+}
+
+.main-container {
+	 min-height: 100vh; /* will cover the 100% of viewport */
+	 overflow: hidden;
+	 display: block;
+	 position: relative;
+	 padding-bottom: 100px; /* height of your footer */
+}
+
+header {
+	background-color: #583861;
+	overflow: hidden;
+	padding: 10px 10px;
+	border-bottom: 5px solid #E6DAD1;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+nav {
+	float: right;
+	width: 65%;
+}
+
+nav li{
+  display: inline;
+}
+
+nav li{
+  text-align: justify;
+}
+
+nav ul:after {
+  content:'';
+  display:inline-block;
+  width: 100%;
+  height: 0;
+}
+
+nav a {
+	padding: 1em 0;
+	color: #E6DAD1;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	  
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+header nav a:hover {
+  background-color: #927352;
+}
+
+p {
+	padding: 10px 20px 10px;
+}
+
+.footer {
+	background-color: #35525B;
+	color: #E6DAD1;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	border-top: 5px solid #E6DAD1;
+	
+	
+	margin-top: 10px;
+	position: absolute;
+	padding: 1px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+}
