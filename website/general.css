@@ -24,11 +24,11 @@ h1, h2 {
 }
 
 .main-container {
-	 min-height: 100vh; /* will cover the 100% of viewport */
+	 min-height: 100vh; /* will cover 100% of the viewport */
 	 overflow: hidden;
 	 display: block;
 	 position: relative;
-	 padding-bottom: 100px; /* height of your footer */
+	 padding-bottom: 100px; /* height of the footer */
 }
 
 header {
