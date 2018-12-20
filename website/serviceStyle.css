@@ -1,0 +1,35 @@
+
+h1 {
+	text-align: center;
+}
+
+figure {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+}
+
+figure img {
+	display: block;
+	width: 100%;	
+}
+
+#orderdiv {
+	text-align: right;
+	padding: 20px;
+}
+
+#orderbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #927352;
+	font-size: 18px; 
+	line-height: 25px;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#orderbutton:hover {
+	background-color: #422302
+}
