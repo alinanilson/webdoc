@@ -3,12 +3,104 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>BlahBlah Cybersecurity - Home</title>
+		<title>Services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="../general.css" />
 		<style>
+			//div  {border: 1px solid blue;}
+			
+			h1 { text-align: center; }
+			
+			.service-container {
+				text-align: center;
+				padding: 10px 20px 10px;
+			}
+			
+			.service-container > div {
+				display: inline-block;
+				text-align: justify;
+			}	
+			
+			.service-container > div > div > div {
+			
+				//background-color: blue;
+			}
+			
+			.service-container > div > div {
+				display: block;
+				//background-color: green;
+				padding: 10px 30px 10px;
+			}
+			
+			.image {
+				position:relative;
+				background-color: #927352;
+			}
+			
+			.image img {
+				opacity: 1;
+				display: block;
+				width: 270px;
+				height: auto;
+				transition: .5s ease;
+				backface-visibility: hidden;
+			}
+			.middle {
+			  transition: .5s ease;
+			  opacity: 0;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  text-align: center;
+			}
+			
+			.image:hover img {
+			  opacity: 0.3;
+			}
 
+			.image:hover .middle {
+			  opacity: 1;
+			}
+
+			.text {
+				padding: 16px 32px;
+			}
+			
+			.image a {
+				color: white;
+				text-decoration: none;
+				font-size: 32px;
+			}
+			
+			.image a:hover {
+				//text-decoration: underline;
+				text-shadow: 4px 4px 4px #E6DAD1;
+			}
+			
+			#pricediv {
+				text-align: center;
+				padding: 20px;
+			}
+			
+			#pricebutton {
+				text-decoration: none;
+				color: white;
+				background-color: #927352;
+				font-size: 18px; 
+				line-height: 25px;
+				padding: 12px 25px 12px;
+				font-family: 'Raleway', sans-serif;
+				text-shadow: 4px 4px 4px #aaa;
+			}
+			
+			#pricebutton:hover {
+				background-color: #422302
+			}
+			
+			
 		</style>
 	</head>
 
@@ -22,7 +114,7 @@
 					
 					<nav>
 						<ul>
-							<li><a href="service/services.html">Services</a></li>
+							<li><a href="services.html">Services</a></li>
 							<li><a href="#">Contact Us</a></li>
 							<li><a href="#">Tutorials</a></li>
 						</ul>
@@ -32,16 +124,70 @@
 		
 		
 			<main>
+				<h1>Services</h1>
+				
 				<div class="service-container">
-					<div class="right-side">
-						
+					<div class="left-side">
+						<div>
+							<div class="image">
+								<img src="../images/compliance_cropped.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="compliance.html">Compliance</a></div>
+								</div>
+							</div>
+							
+						</div>
+						<div>
+							<div class="image">
+								<img src="../images/incidentmanagment_cropped.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="cs_incident_mgmt.html">CS Incident Management</a></div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="image">
+								<img src="../images/hardware_cropped.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="hardware.html">Hardware</a></div>
+								</div>
+							</div>
+						</div>
 					</div>
 					
-					<div class="left-side">
-					
+					<div class="right-side">
+						<div>
+							<div class="image">
+								<img src="../images/consulting_cropped.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="consulting.html">Consulting</a></div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="image">
+								<img src="../images/forensics.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="forensics.html">Forensics</a></div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="image">
+								<img src="../images/penetrationtest_cropped.jpg" alt="">
+								<div class="middle">
+									<div class="text"><a href="penetration_testing.html">Penetration Testing</a></div>
+								</div>
+							</div>
+						</div>
 					</div>
 					
 				</div>
+				
+				<div id="pricediv">
+					<a id="pricebutton" href="#">Pricelist</a>
+				</div>
+				
 			</main>
 
 
