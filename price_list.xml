@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRICELIST>
+  <service>
+    <NAME>Compliance</NAME>
+
+    <PRICE1>500$</PRICE1>
+
+    <PRICE2>5000$</PRICE2>
+
+    <PRICE3>50000$</PRICE3>
+
+    <DURATION>30-90 days</DURATION>
+  </service>
+
+  <service>
+    <NAME>Consulting</NAME>
+
+    <PRICE1>100$</PRICE1>
+
+    <PRICE2>1000$</PRICE2>
+
+    <PRICE3>10000$</PRICE3>
+
+    <DURATION>15-45 days</DURATION>
+  </service>
+
+  <service>
+    <NAME>CS Incident Managment</NAME>
+
+    <PRICE1>500$</PRICE1>
+
+    <PRICE2>5000$</PRICE2>
+
+    <PRICE3>50000$</PRICE3>
+
+    <DURATION>monthly subscription</DURATION>
+  </service>
+
+  <service>
+    <NAME>Forensics</NAME>
+
+    <PRICE1>500$</PRICE1>
+
+    <PRICE2>5000$</PRICE2>
+
+    <PRICE3>50000$</PRICE3>
+
+    <DURATION>10-30 days</DURATION>
+  </service>
+
+  <service>
+    <NAME>Hardware</NAME>
+
+    <PRICE1>450$</PRICE1>
+
+    <PRICE2>4500$</PRICE2>
+
+    <PRICE3>45000$</PRICE3>
+
+    <DURATION>20-60 days</DURATION>
+  </service>
+
+  <service>
+    <NAME>Penetration testing</NAME>
+
+    <PRICE1>1000$</PRICE1>
+
+    <PRICE2>10000$</PRICE2>
+
+    <PRICE3>100000$</PRICE3>
+
+    <DURATION>10-30 days</DURATION>
+  </service>
+</PRICELIST>

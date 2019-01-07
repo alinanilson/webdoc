@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="general.css" />
+	<link rel="icon" type="image/png" href="images/BBs-Logo.svg" sizes="any" />
+	<style>
+		.formwrapper {
+			text-align: center;
+		
+		}
+		
+		.formwrapper > div {
+			display: inline-block;
+			padding: 10px 20px 10px;
+			text-align: justify;
+		}
+		
+		textarea, input {
+			border: 1px solid #927352;
+			padding: 10px;
+			font-family: 'PT Sans', sans-serif;
+		}
+		
+		#obutton, #fbutton {
+			text-decoration: none;
+			color: white;
+			background-color: #927352;
+			padding: 12px 25px 12px;
+			font-family: 'Raleway', sans-serif;
+			text-shadow: 4px 4px 4px #aaa;
+		}
+		
+		#obutton:hover, #fbutton:hover {
+			background-color: #422302;
+			cursor: pointer;
+		}
+	</style>
+	<script type="text/JavaScript">
+		function alertOrder(){
+			alert("Your order was received.");
+		}
+	
+		function alertFeedback(){
+			alert("Your feedback was received.");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="main-container">
+		<header>
+			<div>
+				<a href="index.html">
+					<img class="logo" src="BBsLogo.svg" alt="logo">
+				</a>
+				<nav>
+					<ul>
+						<li><a href="service/services.html">Services</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="tutorials.html">Tutorials</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+	<main>
+		<div class="formwrapper">
+			<div class="order">
+				<h3>Order</h3>
+				<input type="text" id="mail" name="mail" placeholder="Your mail address.." />
+				<br /> <br />
+				<textarea id="subject" name="subject" placeholder="Your inquiry.." style="height:200px"></textarea>
+				<br /> <br />
+				<a id="obutton" onclick="alertOrder()">Submit</a>
+				
+			</div>
+			
+			<div class="feedback">
+				<h3>Feedback</h3>
+				<input type="text" id="email" name="email" placeholder="Your mail address.." />
+				<br /> <br />
+				<textarea id="feedback" name="feedback" placeholder="Your feedback.." style="height:200px"></textarea>
+				<br /> <br />
+				<a id="fbutton" onclick="alertFeedback()">Submit</a>
+				
+			</div>
+		</div>
+	</main>
+
+
+	<footer class="footer">
+		<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+	</footer>
+</div>
+</body>
+</html>

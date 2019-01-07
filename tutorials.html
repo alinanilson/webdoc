@@ -1,0 +1,118 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Tutorials</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="general.css" />
+		<link rel="icon" type="image/png" href="images/BBs-Logo.png" />
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" ></script>
+		<script type="text/javascript">
+			function changeSrc(val, id){
+				var src = "videos/" + val;
+				
+				if(id === 1){
+					id = "#video1";
+				} else if(id === 2){
+					id = "#video2";
+				} else {
+					id = "#video3";
+				}
+				
+				$(id).attr('src', src);
+			}
+		</script>
+		<style>
+			
+			.maindiv {
+				text-align: center;
+			
+			}
+			
+			video {
+				padding: 10px;
+			}
+			
+			select {
+				background-color: #927352;
+				color: white;
+			
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main-container">
+			<header>
+				<div>
+					<img class="logo" src="BBsLogo.svg" alt="logo">
+					<nav>
+						<ul>
+							<li><a href="service/services.html">Services</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="tutorials.html">Tutorials</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			
+			
+			<main>
+				<div class="maindiv">
+					<h1>Tutorials</h1>
+					<h3>Fortigate Tutorials</h3>
+					<select id="list1" onchange="changeSrc(this.value, 1)">
+						<option value="video1.mp4">Basic FortiGate Setup (5.6)</option>
+						<option value="video2.mp4">Setting up WiFi with FortiAP (5.6)</option>
+					</select>
+
+
+					<div id="videoDiv1">
+						<video id="video1"
+								width="480" height="360" 
+								controls>
+								<source src="videos/video1.mp4" type="video/mp4" />
+						</video>
+					</div>
+					
+					<h3>Nmap Tutorials</h3>
+					<select id="list2" onchange="changeSrc(this.value, 2)">
+						<option value="video3.mp4">What is Nmap?</option>
+						<option value="video4.mp4">Scanning Multiple Targets</option>
+						<option value="video5.mp4">Aggressive / Detailed Scan</option>
+					</select>
+					
+					<div id="videoDiv2">
+						<video id="video2"
+								width="480" height="360" 
+								controls>
+							<source src="videos/video3.mp4">
+						</video>
+					</div>
+					
+					<h3>Splunk Tutorials</h3>
+					<select id="list3" onchange="changeSrc(this.value, 3)">
+						<option value="video6.mp4">Splunk Introduction & Architecture</option>
+						<option value="video7.mp4"></option>
+						<option value="video8.mp4"></option>
+					</select>
+					
+					<div id="videoDiv3">
+						<video id="video3"
+								width="480" height="360" 
+								controls>
+							<source src="videos/video6.mp4">
+						</video>
+					</div>
+				</div>
+			</main>
+
+
+			<footer class="footer">
+				<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+			</footer>
+		</div>
+	</body>
+</html>
