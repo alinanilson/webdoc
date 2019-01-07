@@ -1,6 +1,7 @@
-$(document).ready ( function(){
+window.addEventListener("load", function (evt) {
 	
 	loadXMLDoc();
+});
 	
 	function loadXMLDoc() {
 	  var xmlhttp = new XMLHttpRequest();
@@ -39,5 +40,3 @@ $(document).ready ( function(){
 		}
 		document.getElementById("pricelist").innerHTML = table;
 	}
-
-});
