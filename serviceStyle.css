@@ -14,9 +14,13 @@ figure img {
 	width: 100%;	
 }
 
+main ul {
+	padding: 10px 20vw 10px;
+}
+
 #orderdiv {
 	text-align: right;
-	padding: 20px;
+	padding: 10px 20vw 10px;
 }
 
 #orderbutton {
@@ -31,5 +35,5 @@ figure img {
 }
 
 #orderbutton:hover {
-	background-color: #422302
+	background-color: #422302;
 }
