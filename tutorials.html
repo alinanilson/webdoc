@@ -12,16 +12,17 @@
 		<script type="text/javascript">
 			function changeSrc(val, id){
 				var src = "videos/" + val;
+				var el;
 				
 				if(id === 1){
-					id = "#video1";
+					el = document.getElementById("video1");
 				} else if(id === 2){
-					id = "#video2";
+					el = document.getElementById("video2");
 				} else {
-					id = "#video3";
+					el = document.getElementById("video3");
 				}
 				
-				$(id).attr('src', src);
+				el.setAttribute('src', src);
 			}
 		</script>
 		<style>
