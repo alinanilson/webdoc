@@ -28,7 +28,7 @@ h1, h2 {
 	 overflow: hidden;
 	 display: block;
 	 position: relative;
-	 padding-bottom: 100px; /* height of the footer */
+	 padding-bottom: 120px; /* height of the footer */
 }
 
 header {
@@ -40,9 +40,13 @@ header {
 	text-shadow: 4px 4px 4px #aaa;
 }
 
+.logo {
+	width: 65px;
+}
+
 nav {
 	float: right;
-	width: 65%;
+	width: 66%;
 }
 
 nav li{
@@ -97,8 +101,8 @@ p {
 	width: 100%;
 }
 
-@media screen and (max-width: 600px){
-	nav {
+@media screen and (max-width: 565px){
+nav {
 		float: none;
 		display: block;
 		width: 100%;
@@ -115,4 +119,8 @@ p {
 	}
 }
 
-
+@media screen and (max-width: 600px){
+	.footer {
+		font-size: 2.5vw;
+	}
+}
