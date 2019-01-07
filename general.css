@@ -101,6 +101,11 @@ p {
 	width: 100%;
 }
 
+.footer p {
+	padding: 5px 10vw 5px;
+	
+}
+
 @media screen and (max-width: 565px){
 nav {
 		float: none;
