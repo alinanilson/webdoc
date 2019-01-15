@@ -107,7 +107,8 @@ p {
 
 .formwrapper {
 	text-align: center;
-
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .formwrapper > div {
