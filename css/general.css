@@ -18,6 +18,10 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+h1 {
+	text-align: center;
+}
+
 h1, h2 {
 	padding: 0 20vw 0;
 	
@@ -190,6 +194,45 @@ select {
 }
 
 /*end of css for tutorials.html*/
+
+/*now follows css for the service sites*/
+
+figure {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+}
+
+figure img {
+	display: block;
+	width: 100%;	
+}
+
+main ul {
+	padding: 10px 20vw 10px;
+}
+
+#orderdiv {
+	text-align: right;
+	padding: 10px 20vw 10px;
+}
+
+#orderbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #927352;
+	font-size: 18px; 
+	line-height: 25px;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#orderbutton:hover {
+	background-color: #422302;
+}
+
+/*end of css for service sites*/
 
 @media screen and (max-width: 565px){
 	nav {
