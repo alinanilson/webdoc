@@ -103,7 +103,7 @@ p {
 	
 }
 
-//now follows css for contact.html
+/*now follows css for contact.html*/
 
 .formwrapper {
 	text-align: center;
@@ -136,7 +136,7 @@ textarea, input {
 	cursor: pointer;
 }
 
-//end of css for contact.html
+/*end of css for contact.html*/
 
 @media screen and (max-width: 565px){
 	nav {
