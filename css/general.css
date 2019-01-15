@@ -103,8 +103,43 @@ p {
 	
 }
 
+//now follows css for contact.html
+
+.formwrapper {
+	text-align: center;
+
+}
+
+.formwrapper > div {
+	display: inline-block;
+	padding: 10px 20px 10px;
+	text-align: justify;
+}
+
+textarea, input {
+	border: 1px solid #927352;
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#obutton, #fbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #927352;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#obutton:hover, #fbutton:hover {
+	background-color: #422302;
+	cursor: pointer;
+}
+
+//end of css for contact.html
+
 @media screen and (max-width: 565px){
-nav {
+	nav {
 		float: none;
 		display: block;
 		width: 100%;
