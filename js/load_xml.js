@@ -10,7 +10,7 @@ window.addEventListener("load", function (evt) {
 		  createTable(this);
 		}
 	  };
-	  xmlhttp.open("GET", "price_list.xml", true);
+	  xmlhttp.open("GET", "../xml/price_list.xml", true);
 	  xmlhttp.send();
 	}
 
