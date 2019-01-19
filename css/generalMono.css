@@ -36,11 +36,11 @@ h1, h2 {
 }
 
 header {
-	background-color: #583861;
-	color: #E6DAD1;
+	background-color: #6C6C6C;
+	color: #ADADAD;
 	overflow: hidden;
 	padding: 10px 10px;
-	border-bottom: 5px solid #E6DAD1;
+	border-bottom: 5px solid #ADADAD;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 4px 4px 4px #aaa;
 }
@@ -68,7 +68,7 @@ nav ul:after {
 
 nav a {
 	padding: 1em 0;
-	color: #E6DAD1;
+	color: #ADADAD;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
@@ -79,7 +79,7 @@ nav a {
 }
 
 header nav a:hover {
-	background-color: #50412B;
+	background-color: #525151;
 }
 
 p {
@@ -87,11 +87,11 @@ p {
 }
 
 .footer {
-	background-color: #2D454D;
-	color: #E6DAD1;
+	background-color: #545454;
+	color: #ADADAD;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	border-top: 5px solid #E6DAD1;
+	border-top: 5px solid #ADADAD;
 	
 	
 	margin-top: 10px;
@@ -123,7 +123,7 @@ p {
 }
 
 textarea, input {
-	border: 1px solid #927352;
+	border: 1px solid #949392;
 	padding: 10px;
 	font-family: 'PT Sans', sans-serif;
 }
