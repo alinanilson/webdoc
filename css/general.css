@@ -73,13 +73,13 @@ nav a {
 	padding: 12px;
 	text-decoration: none;
 	  
-	font-size: 18px; 
+	font-size: 3em; 
 	line-height: 25px;
 	border-radius: 4px;
 }
 
 header nav a:hover {
-	background-color: #927352;
+	background-color: #50412B;
 }
 
 p {
