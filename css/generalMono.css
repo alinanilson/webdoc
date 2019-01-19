@@ -37,7 +37,7 @@ h1, h2 {
 
 header {
 	background-color: #6C6C6C;
-	color: #ADADAD;
+	color: white;
 	overflow: hidden;
 	padding: 10px 10px;
 	border-bottom: 5px solid #ADADAD;
@@ -68,7 +68,7 @@ nav ul:after {
 
 nav a {
 	padding: 1em 0;
-	color: #ADADAD;
+	color: white;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
@@ -88,7 +88,7 @@ p {
 
 .footer {
 	background-color: #545454;
-	color: #ADADAD;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	border-top: 5px solid #ADADAD;
