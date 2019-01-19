@@ -131,14 +131,14 @@ textarea, input {
 #obutton, #fbutton {
 	text-decoration: none;
 	color: white;
-	background-color: #68533B;
+	background-color: #777777;
 	padding: 12px 25px 12px;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 4px 4px 4px #aaa;
 }
 
 #obutton:hover, #fbutton:hover {
-	background-color: #50412B;
+	background-color: #525151;
 	cursor: pointer;
 }
 
@@ -156,7 +156,7 @@ video {
 }
 
 select {
-	background-color: #68533B;
+	background-color: #777777;
 	color: white;
 
 }
@@ -169,7 +169,7 @@ select {
 #requestbutton {
 	text-decoration: none;
 	color: white;
-	background-color: #68533B;
+	background-color: #777777;
 	font-size: 18px; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
@@ -178,7 +178,7 @@ select {
 }
 
 #requestbutton:hover {
-	background-color: #50412B
+	background-color: #525151
 }
 
 @media screen and (max-width: 500px) {
@@ -221,7 +221,7 @@ main ul {
 #orderbutton {
 	text-decoration: none;
 	color: white;
-	background-color: #68533B;
+	background-color: #777777;
 	font-size: 1em; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
@@ -230,7 +230,7 @@ main ul {
 }
 
 #orderbutton:hover {
-	background-color: #50412B;
+	background-color: #525151;
 }
 
 /*end of css for service sites*/
@@ -308,7 +308,7 @@ main ul {
 #pricebutton {
 	text-decoration: none;
 	color: white;
-	background-color: #68533B;
+	background-color: #777777;
 	font-size: 1em; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
@@ -317,7 +317,7 @@ main ul {
 }
 
 #pricebutton:hover {
-	background-color: #50412B;
+	background-color: #525151;
 }
 
 /*end of css for service.html*/
