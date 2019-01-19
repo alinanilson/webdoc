@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {box-sizing: border-box;}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+}
+
+body { 
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	padding: 0 20vw 0;
+	
+}
+
+.main-container {
+	 min-height: 100vh; /* will cover 100% of the viewport */
+	 overflow: hidden;
+	 display: block;
+	 position: relative;
+	 padding-bottom: 120px; /* height of the footer */
+}
+
+header {
+	background-color: #583861;
+	color: #E6DAD1;
+	overflow: hidden;
+	padding: 10px 10px;
+	border-bottom: 5px solid #E6DAD1;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+.logo {
+	width: 65px;
+}
+
+nav {
+	float: right;
+	width: 66%;
+}
+
+nav li{
+	display: inline;
+	text-align: justify;
+}
+
+nav ul:after {
+	content:'';
+	display:inline-block;
+	width: 100%;
+	height: 0;
+}
+
+nav a {
+	padding: 1em 0;
+	color: #E6DAD1;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	  
+	font-size: 1em; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+header nav a:hover {
+	background-color: #50412B;
+}
+
+p {
+	padding: 10px 20vw 10px;
+}
+
+.footer {
+	background-color: #2D454D;
+	color: #E6DAD1;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	border-top: 5px solid #E6DAD1;
+	
+	
+	margin-top: 10px;
+	position: absolute;
+	padding: 1px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p {
+	padding: 5px 10vw 5px;
+	
+}
+
+/*now follows css for contact.html*/
+
+.formwrapper {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formwrapper > div {
+	display: inline-block;
+	padding: 10px 20px 10px;
+	text-align: justify;
+}
+
+textarea, input {
+	border: 1px solid #927352;
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+#obutton, #fbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #68533B;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#obutton:hover, #fbutton:hover {
+	background-color: #50412B;
+	cursor: pointer;
+}
+
+/*end of css for contact.html*/
+
+/*now follows the css for tutorials.html*/
+
+.maindiv {
+	text-align: center;
+
+}
+
+video {
+	padding: 10px;
+}
+
+select {
+	background-color: #68533B;
+	color: white;
+
+}
+
+.requestdiv {
+	padding: 10px;
+
+}
+
+#requestbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #68533B;
+	font-size: 18px; 
+	line-height: 25px;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#requestbutton:hover {
+	background-color: #50412B
+}
+
+@media screen and (max-width: 500px) {
+
+	video {
+		height: auto;
+		width: 90vw;
+	}
+	
+	#requestbutton {
+		font-size: 3vw;
+	}
+
+}
+
+/*end of css for tutorials.html*/
+
+/*now follows css for the service sites*/
+
+figure {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+}
+
+figure img {
+	display: block;
+	width: 100%;	
+}
+
+main ul {
+	padding: 10px 20vw 10px;
+}
+
+#orderdiv {
+	text-align: right;
+	padding: 10px 20vw 10px;
+}
+
+#orderbutton {
+	text-decoration: none;
+	color: white;
+	background-color: #68533B;
+	font-size: 1em; 
+	line-height: 25px;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#orderbutton:hover {
+	background-color: #50412B;
+}
+
+/*end of css for service sites*/
+
+/*now follows css for service.html*/
+
+.service-container {
+	text-align: center;
+	padding: 10px 20px 10px;
+}
+
+.service-container > div {
+	display: inline-block;
+	text-align: justify;
+}	
+
+.service-container > div > div {
+	display: block;
+	padding: 10px 30px 10px;
+}
+
+.image {
+	position:relative;
+	color: white;
+	background-color: #50412B;
+}
+
+.image img {
+	opacity: 1;
+	display: block;
+	width: 270px;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.image:hover img {
+	opacity: 0.3;
+}
+
+.image:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	padding: 16px 32px;
+}
+
+.image a {
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.image a:hover {
+	text-shadow: 4px 4px 4px #E6DAD1;
+}
+
+#pricediv {
+	text-align: center;
+	padding: 20px;
+}
+
+#pricebutton {
+	text-decoration: none;
+	color: white;
+	background-color: #68533B;
+	font-size: 1em; 
+	line-height: 25px;
+	padding: 12px 25px 12px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#pricebutton:hover {
+	background-color: #50412B;
+}
+
+/*end of css for service.html*/
+
+@media screen and (max-width: 565px){
+	nav {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	
+	nav li {
+		padding: 6px;
+		display: block;
+	}
+	
+	.logo {
+		
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.footer {
+		font-size: 2.5vw;
+	}
+}
