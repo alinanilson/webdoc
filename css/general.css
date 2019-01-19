@@ -138,7 +138,7 @@ textarea, input {
 }
 
 #obutton:hover, #fbutton:hover {
-	background-color: #422302;
+	background-color: #50412B;
 	cursor: pointer;
 }
 
@@ -178,7 +178,7 @@ select {
 }
 
 #requestbutton:hover {
-	background-color: #422302
+	background-color: #50412B
 }
 
 @media screen and (max-width: 500px) {
@@ -222,7 +222,7 @@ main ul {
 	text-decoration: none;
 	color: white;
 	background-color: #927352;
-	font-size: 18px; 
+	font-size: 1em; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
 	font-family: 'Raleway', sans-serif;
@@ -230,7 +230,7 @@ main ul {
 }
 
 #orderbutton:hover {
-	background-color: #422302;
+	background-color: #50412B;
 }
 
 /*end of css for service sites*/
@@ -292,7 +292,7 @@ main ul {
 .image a {
 	color: white;
 	text-decoration: none;
-	font-size: 32px;
+	font-size: 2em;
 }
 
 .image a:hover {
@@ -308,7 +308,7 @@ main ul {
 	text-decoration: none;
 	color: white;
 	background-color: #927352;
-	font-size: 18px; 
+	font-size: 1em; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
 	font-family: 'Raleway', sans-serif;
@@ -316,7 +316,7 @@ main ul {
 }
 
 #pricebutton:hover {
-	background-color: #422302
+	background-color: #50412B;
 }
 
 /*end of css for service.html*/
