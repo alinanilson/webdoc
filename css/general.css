@@ -131,7 +131,7 @@ textarea, input {
 #obutton, #fbutton {
 	text-decoration: none;
 	color: white;
-	background-color: #927352;
+	background-color: #68533B;
 	padding: 12px 25px 12px;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 4px 4px 4px #aaa;
@@ -156,7 +156,7 @@ video {
 }
 
 select {
-	background-color: #927352;
+	background-color: #68533B;
 	color: white;
 
 }
@@ -169,7 +169,7 @@ select {
 #requestbutton {
 	text-decoration: none;
 	color: white;
-	background-color: #927352;
+	background-color: #68533B;
 	font-size: 18px; 
 	line-height: 25px;
 	padding: 12px 25px 12px;
