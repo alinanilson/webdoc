@@ -10,7 +10,7 @@ window.addEventListener("load", function (evt) {
 		  createTable(this);
 		}
 	  };
-	  xmlhttp.open("GET", "../xml/price_list.xml", true);
+	  xmlhttp.open("GET", "https://alinanilson.github.io/webdoc/xml/price_list.xml", true);
 	  xmlhttp.send();
 	}
 
