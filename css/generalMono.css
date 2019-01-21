@@ -43,7 +43,6 @@ header {
 	border-bottom: 5px solid #ADADAD;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 4px 4px 4px #aaa;
-	min-height: 95px;
 }
 
 #logo {
@@ -338,7 +337,7 @@ main ul {
 }
 
 .image a:hover {
-	text-shadow: 4px 4px 4px #E6DAD1;
+	text-shadow: 4px 4px 4px white;
 }
 
 #pricediv {
@@ -362,6 +361,34 @@ main ul {
 }
 
 /*end of css for service.html*/
+
+/*now follows css for pricetable.html*/
+
+th {
+	border: 2px solid black;
+}
+
+td {
+	border: 1px solid black;
+}
+
+.pricetable, table {
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+@media screen and (max-width: 700px) {
+	table {
+		font-size: 2.2vw;
+	}
+}
+
+/*end of css for pricetable.html*/
 
 @media screen and (max-width: 565px){
 	nav {
