@@ -9,6 +9,8 @@
 		<link rel="stylesheet" type="text/css" title="Standard" href="css/general.css" />
 		<link rel="stylesheet" type="text/css" title="Monochrome" href="css/generalMono.css" />
 		<link rel="icon" type="image/png" href="images/BBs-Logo.png" />
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+		<script src="js/toggleNav.js"></script>
 		<script type="text/javascript">
 			function changeSrc(val, id){
 				var src = "videos/" + val;
@@ -30,26 +32,29 @@
 	<body>
 		<div class="main-container">
 			<header>
-				<div>
-					<a href="index.html" tabindex="1" accesskey="h">
-						<img class="logo" src="images/BBsLogo.svg" alt="logo">
-					</a>
+				
+				<a id="logo" href="index.html" tabindex="1" accesskey="h">
+					<img class="logo" src="images/BBsLogo.svg" alt="Homepage">
+				</a>
 
-					<nav>
+				<nav>
+				  <div class="navWide">
+					<div class="wideDiv">
+					  <a accesskey="s" tabindex="2" href="service/services.html">Services</a>
+					  <a accesskey="c" tabindex="3" href="contact.html">Contact Us</a>
+					  <a accesskey="t" tabindex="4" href="tutorials.html">Tutorials</a>
+					</div>
+				  </div>
+				  <div class="navNarrow">
+					<i class="fa fa-bars"></i>
+					<div class="narrowLinks hidden">
+					  <a accesskey="s" tabindex="2" href="service/services.html">Services</a>
+					  <a accesskey="c" tabindex="3" href="contact.html">Contact Us</a>
+					  <a accesskey="t" tabindex="4" href="tutorials.html">Tutorials</a>
+					</div>
+				  </div>
+				</nav>
 
-						<ul>
-
-							<li><a accesskey="s" tabindex="2" href="service/services.html">Services</a></li>
-
-							<li><a accesskey="c" tabindex="3" href="contact.html">Contact Us</a></li>
-
-							<li><a accesskey="t" tabindex="4" href="tutorials.html">Tutorials</a></li>
-
-						</ul>
-
-					</nav>
-
-				</div>
 			</header>
 			
 			
