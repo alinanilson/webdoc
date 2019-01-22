@@ -63,10 +63,8 @@ header {
 }
 
 nav {
-	/*background-color: #CCC;*/
 	overflow: hidden;
 	padding: 1em;
-	/*border-bottom: 1px solid #000;*/
 }
 
 nav	a {
@@ -87,6 +85,14 @@ nav .navWide .wideDiv a {
 	display: inline-block;
 	/*Adjust padding to increase/decrease the space between links.*/
 	padding: 0 2em;
+}
+
+nav .navWide .wideDiv a:hover {
+	text-decoration: underline;
+}
+
+nav .navNarrow .narrowLinks a:hover {
+	text-decoration: underline;
 }
 	
 /*Navbar is set to default with the "hamburger" and links on the left
