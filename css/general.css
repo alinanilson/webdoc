@@ -88,6 +88,10 @@ nav .navWide .wideDiv a {
 	
 }
 
+.breadcrumbs {
+	font-size: 0.5em;
+}
+
 nav .navWide .wideDiv a:hover {
 	text-decoration: underline;
 	
