@@ -11,6 +11,11 @@
 	<link rel="icon" type="image/png" href="../images/BBs-Logo.png" sizes="any" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 	<script src="../js/toggleNav.js"></script>
+	<link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.Title" content="Compliance" />
+	<meta name="DC.Creator" content="Nico Pschipsch, Deborah Buckenauer" />
+	<meta name="DC.Subject" content="Information about Compliance Service" />
+	<meta name="DC.Issued" content="2019-01-21" />
 	<style>
 		figure img {
 			margin: -100px 0;
@@ -19,7 +24,7 @@
 	</style>
 </head>
 
-<body>
+<body vocab="http://schema.org">
 	<div class="main-container">
 		<header>
 				
@@ -65,8 +70,8 @@
 		</figure>
 		
 		<h1>Compliance</h1>
-		<p>Due to the constantly toughening supervision and the strengthening of information security requirements on the part of various regulatory bodies, the procedure for assessing the compliance of the processes of building and ensuring the required level of information security of the organization to external requirements (compliance) becomes not only advisory, but in most cases mandatory.<br /> <br />
-		BlahBlah Cybersecurity experts have many years of experience in conducting audits and solving various issues related to bringing the IT processes of organizations and maintaining them in accordance with the requirements of regulatory documents such as CBR standards and regulations, PCI DSS, SWIFT requirements, etc.</p>
+		<p typeof="Organization">Due to the constantly toughening supervision and the strengthening of information security requirements on the part of various regulatory bodies, the procedure for assessing the compliance of the processes of building and ensuring the required level of information security of the organization to external requirements (compliance) becomes not only advisory, but in most cases mandatory.<br /> <br />
+			<span property="name">BlahBlah Cybersecurity</span> experts have many years of experience in conducting audits and solving various issues related to bringing the IT processes of organizations and maintaining them in accordance with the requirements of regulatory documents such as CBR standards and regulations, PCI DSS, SWIFT requirements, etc.</p>
 		
 		
 		<div id="orderdiv">
@@ -76,7 +81,7 @@
 
 
 	<footer class="footer">
-		<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+		<p typeof="Person">Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; <span property="name">Nico Pschipsch</span> & <span property="name">Deborah Buckenauer</span> 2018 </p>
 	</footer>
 </div>
 </body>
