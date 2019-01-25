@@ -11,6 +11,11 @@
 	<link rel="icon" type="image/png" href="../images/BBs-Logo.png" sizes="any" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 	<script src="../js/toggleNav.js"></script>
+	<link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.Title" content="Hardware" />
+	<meta name="DC.Creator" content="Nico Pschipsch, Deborah Buckenauer" />
+	<meta name="DC.Subject" content="Information about Hardware Service" />
+	<meta name="DC.Issued" content="2019-01-21" />
 	<style>
 		figure img {
 			 margin: -30px 0;
@@ -19,53 +24,53 @@
 	</style>
 </head>
 
-<body>
+<body vocab="http://schema.org">
 	<div class="main-container">
 		<header>
 				
-				<a id="logo" href="../index.html" tabindex="1" accesskey="h">
-					<img class="logo" src="../images/BBsLogo.svg" alt="Homepage">
-				</a>
+			<a id="logo" href="../index.html" tabindex="1" accesskey="h">
+				<img class="logo" src="../images/BBsLogo.svg" alt="Homepage">
+			</a>
 
-				<nav>
-					<div class="navWide">
-						<div class="wideDiv">
-							<a accesskey="s" tabindex="2" href="services.html">Services</a>
-							<a accesskey="c" tabindex="3" href="../contact.html">Contact Us</a>
-							<a accesskey="t" tabindex="4" href="../tutorials.html">Tutorials</a>
+			<nav id="mainnav">
+				<div class="navWide">
+					<div class="wideDiv">
+						<a accesskey="s" tabindex="2" href="services.html">Services</a>
+						<a accesskey="c" tabindex="3" href="../contact.html">Contact Us</a>
+						<a accesskey="t" tabindex="4" href="../tutorials.html">Tutorials</a>
+					</div>
+				</div>
+				<div class="navNarrow">
+					<i class="fa fa-bars"></i>
+					<div class="narrowLinks hidden">
+						<a accesskey="s" tabindex="2" href="services.html">Services</a>
+						<div class="breadcrumbs">
+							<a href="services.html">Services</a>
+							<a href="hardware.html">Hardware</a>
 						</div>
+						<a accesskey="c" tabindex="3" href="../contact.html">Contact Us</a>
+						<a accesskey="t" tabindex="4" href="../tutorials.html">Tutorials</a>
 					</div>
-					<div class="navNarrow">
-						<i class="fa fa-bars"></i>
-						<div class="narrowLinks hidden">
-							<a accesskey="s" tabindex="2" href="services.html">Services</a>
-							<div class="breadcrumbs">
-								<a href="services.html">Services</a>
-								<a href="hardware.html">Hardware</a>
-							</div>
-							<a accesskey="c" tabindex="3" href="../contact.html">Contact Us</a>
-							<a accesskey="t" tabindex="4" href="../tutorials.html">Tutorials</a>
-						</div>
-					</div>
-				</nav>
+				</div>
+			</nav>
 
-				<nav>
-					<div class="navWide">
-						<a href="services.html">Services</a>
-						|
-						<a href="hardware.html">Hardware</a>
-					</div>
-				</nav>
+			<nav aria-labelledby="mainnav">
+				<div class="navWide">
+					<a href="services.html">Services</a>
+					|
+					<a href="hardware.html">Hardware</a>
+				</div>
+			</nav>
 
-			</header>
+		</header>
 
 		<main>
 			<figure>
 				<img src="../images/hardware.jpg" alt="" />
 			</figure>
 			<h1>Hardware</h1>
-			<p>Recently, the number of incidents connected with attacks on ATMs and self-service terminals of credit institutions that lead to the theft of cash funds has grown substantially. <br /> <br />
-		BlahBlah Cybersecurity offers the following list of works in this area:</p>
+			<p typeof="Organization">Recently, the number of incidents connected with attacks on ATMs and self-service terminals of credit institutions that lead to the theft of cash funds has grown substantially. <br /> <br />
+				<span property="name">BlahBlah Cybersecurity</span> offers the following list of works in this area:</p>
 			<ul>
 				<li>Remote testing of ATMs through the network (without physical access)</li>
 				<li>The impact on the hardware of ATMs</li>
@@ -81,7 +86,7 @@
 		</main>
 
 		<footer class="footer">
-			<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+			<p typeof="Person">Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; <span property="name">Nico Pschipsch</span> & <span property="name">Deborah Buckenauer</span> 2018-2019 </p>
 		</footer>
 	</div>
 </body>
