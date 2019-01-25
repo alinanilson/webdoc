@@ -12,9 +12,14 @@
 		<script src="js/load_xml.js"></script>
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 		<script src="js/toggleNav.js"></script>
+		<link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
+		<meta name="DC.Title" content="Pricelist" />
+		<meta name="DC.Creator" content="Nico Pschipsch, Deborah Buckenauer" />
+		<meta name="DC.Subject" content="Pricelist for Services of the Company" />
+		<meta name="DC.Issued" content="2019-01-21" />
 	</head>
 
-	<body>
+	<body vocab="http://schema.org">
 		<div class="main-container">
 			<header>
 				
@@ -22,7 +27,7 @@
 					<img class="logo" src="images/BBsLogo.svg" alt="Homepage">
 				</a>
 
-				<nav>
+				<nav id="mainnav">
 					<div class="navWide">
 						<div class="wideDiv">
 							<a accesskey="s" tabindex="2" href="service/services.html">Services</a>
@@ -44,7 +49,7 @@
 					</div>
 				</nav>
 
-				<nav>
+				<nav aria-labelledby="mainnav">
 					<div class="navWide">
 						<a href="service/services.html">Services</a>
 						|
@@ -64,7 +69,7 @@
 
 
 			<footer class="footer">
-				<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+				<p typeof="Person">Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; <span property="name">Nico Pschipsch</span> & <span property="name">Deborah Buckenauer</span> 2018 </p>
 			</footer>
 		</div>
 	</body>
