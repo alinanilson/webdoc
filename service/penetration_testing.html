@@ -11,6 +11,11 @@
 	<link rel="icon" type="image/png" href="../images/BBs-Logo.png" sizes="any" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 	<script src="../js/toggleNav.js"></script>
+	<link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.Title" content="Penetration Testing" />
+	<meta name="DC.Creator" content="Nico Pschipsch, Deborah Buckenauer" />
+	<meta name="DC.Subject" content="Information about Penetration Testing Service" />
+	<meta name="DC.Issued" content="2019-01-21" />
 	<style>
 		figure img {
 			display: block;
@@ -21,7 +26,7 @@
 	</style>
 </head>
 
-<body>
+<body vocab="http://schema.org">
 	<div class="main-container">
 		<header>
 				
@@ -29,7 +34,7 @@
 				<img class="logo" src="../images/BBsLogo.svg" alt="Homepage">
 			</a>
 
-			<nav>
+			<nav id="mainnav">
 				<div class="navWide">
 					<div class="wideDiv">
 						<a accesskey="s" tabindex="2" href="services.html">Services</a>
@@ -51,7 +56,7 @@
 				</div>
 			</nav>
 
-			<nav>
+			<nav aria-labelledby="mainnav">
 				<div class="navWide">
 					<a href="services.html">Services</a>
 					|
@@ -66,8 +71,8 @@
 				<img src="../images/penetrationtest.jpg" alt="" />
 			</figure>
 			<h1>Penetration Testing</h1>
-			<p>Penetration testing is a method of assessing the security of computer systems or networks by means of simulating an attack by an attacker. The process involves a broad analysis of the system for potential vulnerabilities. The analysis is conducted from the perspective of a potential attacker and may involve the active use of system vulnerabilities. The result of the work is a report containing all the "weaknesses" of the security system found, and can also contain recommendations for their elimination. The purpose of penetration testing is to evaluate the possibility of its implementation and predict the economic losses resulting from the successful implementation of the attack. Penetration testing is part of the security audit. <br /> <br />
-		BlahBlah Cybersecurity will help you and your business significantly reduce the risk of such incidents. Our specialists will test for penetration of various levels of complexity, after which they will make a detailed report on the work done and give their recommendations on the removal of the revealed security breaches.</p>
+			<p typeof="Organization">Penetration testing is a method of assessing the security of computer systems or networks by means of simulating an attack by an attacker. The process involves a broad analysis of the system for potential vulnerabilities. The analysis is conducted from the perspective of a potential attacker and may involve the active use of system vulnerabilities. The result of the work is a report containing all the "weaknesses" of the security system found, and can also contain recommendations for their elimination. The purpose of penetration testing is to evaluate the possibility of its implementation and predict the economic losses resulting from the successful implementation of the attack. Penetration testing is part of the security audit. <br /> <br />
+				<span property="name">BlahBlah Cybersecurity</span> will help you and your business significantly reduce the risk of such incidents. Our specialists will test for penetration of various levels of complexity, after which they will make a detailed report on the work done and give their recommendations on the removal of the revealed security breaches.</p>
 		
 			<div id="orderdiv">
 				<a tabindex="5" accesskey="o" id="orderbutton" href="../contact.html">Order</a>
@@ -76,7 +81,7 @@
 
 
 		<footer class="footer">
-			<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+			<p typeof="Person">Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; <span property="name">Nico Pschipsch</span> & <span property="name">Deborah Buckenauer</span> 2018-2019 </p>
 		</footer>
 	</div>
 </body>
