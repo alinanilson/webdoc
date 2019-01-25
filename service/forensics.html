@@ -11,6 +11,11 @@
 	<link rel="icon" type="image/png" href="../images/BBs-Logo.png" sizes="any" />
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 	<script src="../js/toggleNav.js"></script>
+	<link rel="schema.DC"      href="http://purl.org/dc/elements/1.1/" />
+	<meta name="DC.Title" content="Forensics" />
+	<meta name="DC.Creator" content="Nico Pschipsch, Deborah Buckenauer" />
+	<meta name="DC.Subject" content="Information about Forensics Service" />
+	<meta name="DC.Issued" content="2019-01-21" />
 	<style>
 		figure img {
 			display: block;
@@ -20,7 +25,7 @@
 	</style>
 </head>
 
-<body>
+<body vocab="http://schema.org">
 	<div class="main-container">
 		<header>
 				
@@ -28,7 +33,7 @@
 				<img class="logo" src="../images/BBsLogo.svg" alt="Homepage">
 			</a>
 
-			<nav>
+			<nav id="mainnav">
 				<div class="navWide">
 					<div class="wideDiv">
 						<a accesskey="s" tabindex="2" href="services.html">Services</a>
@@ -50,7 +55,7 @@
 				</div>
 			</nav>
 
-			<nav>
+			<nav aria-labelledby="mainnav">
 				<div class="navWide">
 					<a href="services.html">Services</a>
 					|
@@ -65,7 +70,7 @@
 				<img src="../images/forensics.jpg" alt="" />
 			</figure>
 			<h1>Forensics</h1>
-			<p>BlahBlah Cybersecurity conducts computer-technical expertise, providing the following services:</p>
+			<p typeof="Organization"><span property="name">BlahBlah Cybersecurity</span> conducts computer-technical expertise, providing the following services:</p>
 			<ul>
 				<li>Search on the storage medium for documents, images, messages and other relevant information, including in a remote, hidden, encrypted form</li>
 				<li>Search for digital traces of actions performed on computer information</li>
@@ -81,7 +86,7 @@
 		</main>
 
 		<footer class="footer">
-			<p>Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; Nico Pschipsch & Deborah Buckenauer 2018 </p>
+			<p typeof="Person">Legal notice: BBSec is an imaginary firm for school assignment <br /> &copy; <span property="name">Nico Pschipsch</span> & <span property="name">Deborah Buckenauer</span> 2018-2019 </p>
 		</footer>
 
 	</div>
